@@ -6,12 +6,15 @@
 </head>
 <style type="text/css">
 	td{
-		width: 100px;
-		height: 100px;
+		width: 200px;
+		height: 200px;
 	}
 	table{
 		border-spacing: 0;
-		margin: auto;
+		display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
 	}
 	td:nth-child(1){
 		border-right: 1px solid black;
@@ -30,37 +33,39 @@
 	}
 </style>
 <body>
+	<p>Player1: <input type="number" name="number" placeholder="0"> </p>
+	<p>Player2: <input type="number" name="number" placeholder="0"> </p>
 <table>
 	<tr class="border-bottom">
-		<td>
-
+		<td data-number="1">
+<img src="крестик.png" width="200px">
 		</td>
-		<td>
-			
+		<td data-number="2">
+			<img src="нолик.png" width="200px">
 		</td>
-		<td>
+		<td data-number="3">
 			
 		</td>
 	</tr>
 	<tr class="border-bottom">
-		<td>
+		<td data-number="4">
 			
 		</td>
-		<td>
+		<td data-number="5">
 			
 		</td>
-		<td>
+		<td data-number="6">
 			
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td data-number="7">
 			
 		</td>
-		<td>
+		<td data-number="8">
 			
 		</td>
-		<td>
+		<td data-number="9">
 			
 		</td>
 	</tr>
