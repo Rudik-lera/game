@@ -1,0 +1,26 @@
+td{
+		width: 200px;
+		height: 200px;
+	}
+	table{
+		border-spacing: 0;
+		display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+	}
+	td:nth-child(1){
+		border-right: 1px solid black;
+	}
+	td:nth-child(2){
+		border-right: 1px solid black;
+	}
+	tr.border-bottom td:nth-child(1){
+		border-bottom: 1px solid black;
+	}
+	tr.border-bottom td:nth-child(2){
+		border-bottom: 1px solid black;
+	}
+	tr.border-bottom td:nth-child(3){
+		border-bottom: 1px solid black;
+	}

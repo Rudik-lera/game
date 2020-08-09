@@ -3,45 +3,20 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>крестики-нолики</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/scripts.js"></script>
+	<link rel="stylesheet" href="css/styles.css" />
 </head>
-<style type="text/css">
-	td{
-		width: 200px;
-		height: 200px;
-	}
-	table{
-		border-spacing: 0;
-		display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 700px;
-	}
-	td:nth-child(1){
-		border-right: 1px solid black;
-	}
-	td:nth-child(2){
-		border-right: 1px solid black;
-	}
-	tr.border-bottom td:nth-child(1){
-		border-bottom: 1px solid black;
-	}
-	tr.border-bottom td:nth-child(2){
-		border-bottom: 1px solid black;
-	}
-	tr.border-bottom td:nth-child(3){
-		border-bottom: 1px solid black;
-	}
-</style>
 <body>
-	<p>Player1: <input type="number" name="number" placeholder="0"> </p>
-	<p>Player2: <input type="number" name="number" placeholder="0"> </p>
+	<p>Player1: <span class="1player">0</span></p>
+	<p>Player2: <span class="2player">0</span></p>
 <table>
 	<tr class="border-bottom">
 		<td data-number="1">
-<img src="крестик.png" width="200px">
+			
 		</td>
 		<td data-number="2">
-			<img src="нолик.png" width="200px">
+			
 		</td>
 		<td data-number="3">
 			
